@@ -304,7 +304,7 @@
         "apiVersion": "2015-08-01",
         "type": "Microsoft.Web/sites",
         "name": "[variables('functionAppName')]",
-        "location": "[resourceGroup().location]",
+        "location": "West US 2",
         "kind": "functionapp",
         "properties": {
             "name": "[variables('functionAppName')]",
