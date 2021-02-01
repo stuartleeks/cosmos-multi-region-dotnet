@@ -246,7 +246,7 @@
         "consistencyPolicy": {
             "defaultConsistencyLevel": "Strong"
         },
-        "enableMultipleWriteLocations": true,
+        "enableMultipleWriteLocations": false,
         "locations": [
           {
             "locationName": "West US 2",
